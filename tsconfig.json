@@ -5,7 +5,7 @@
     "rootDir": "packages",
     "outDir": "dist",
     "target": "ES2021",
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "esModuleInterop": true,

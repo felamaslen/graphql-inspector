@@ -97,7 +97,7 @@ export async function run() {
   let config;
 
   if (onUsage) {
-    const checkUsage = require(onUsage);
+    const checkUsage = require(process.cwd() + '/' + onUsage);
 
     if (checkUsage) {
       config = {
